@@ -40,20 +40,26 @@ public class CurrencyConverterService : ICurrencyConverter
             toCurrency = toCurrency.ToUpper();
 
             Func<Edge<string>, double> graphWeight = e => 1;
-
-            var tryGetPath = _currencyGraph.ShortestPathsDijkstra(graphWeight, fromCurrency);
-
-            double totalRate = 1;
-            IEnumerable<Edge<string>> path;
-            if (tryGetPath(toCurrency, out path))
+            try
             {
-                foreach (var e in path)
+                var tryGetPath = _currencyGraph.ShortestPathsDijkstra(graphWeight, fromCurrency);
+                double totalRate = 1;
+                IEnumerable<Edge<string>> path;
+                if (tryGetPath(toCurrency, out path))
                 {
-                    string key = e.Source + "_" + e.Target;
-                    totalRate *= _rateDic[key];
+                    foreach (var e in path)
+                    {
+                        string key = e.Source + "_" + e.Target;
+                        totalRate *= _rateDic[key];
+                    }
+                    _logger.LogInformation($"Currency Convert Operation Finished for {fromCurrency}_{toCurrency}.");
+                    return totalRate * amount;
                 }
-                _logger.LogInformation($"Currency Convert Operation Finished for {fromCurrency}_{toCurrency}.");
-                return totalRate * amount;
+            }
+            catch (Exception)
+            {
+                _logger.LogWarning($"Desired Currency not found. {fromCurrency} to {toCurrency}");
+                return -1;
             }
         }
         _logger.LogWarning("Currency Convert Operation Finised with Warning Code:-2.");
