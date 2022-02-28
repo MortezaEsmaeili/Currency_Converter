@@ -25,6 +25,7 @@ public class CurrencyController : ApiControllerBase
     [Route("ClearConfiguration")]
     public async Task<ActionResult> ClearConfiguration()
     {
+        _logger.LogInformation("ClearConfiguration API Method was called");
         await _mediator.Send(new DeleteDataCommand());
         return Ok();
     }
@@ -33,6 +34,7 @@ public class CurrencyController : ApiControllerBase
     [Route("UpdateConfiguration")]
     public async Task<ActionResult> UpdateConfiguration([FromBody] CurrencyRate[] currencyRates)
     {
+        _logger.LogInformation("UpdateConfiguration API Method was called");
         UpdateConfigCommand updateConfigCommand = new(currencyRates);
         await _mediator.Send(updateConfigCommand);
         return Ok();
@@ -42,6 +44,7 @@ public class CurrencyController : ApiControllerBase
     [Route("Convert")]
     public async Task<ActionResult> Convert(string fromCurrency, string toCurrency, double amount)
     {
+        _logger.LogInformation("Convert API Method was called");
         ConvertCurrencyQuery currencyQuery = new(fromCurrency,toCurrency,amount);
         var response = await _mediator.Send(currencyQuery);
         return Ok(response);

@@ -35,19 +35,11 @@ public class ConvertCurrencyQueryHandler2 : IRequestHandler<ConvertCurrencyQuery
         double convertedValue = _currencyConverter.
             Convert(request._fromCurrency, request._toCurrency, request._amount);
         
-        string description = "";
-        switch (convertedValue)
+        var description = convertedValue switch
         {
-            case -1:
-                description = "Not Found";
-                break;
-            case -2:
-                description = "InternalError";
-                break;
-            default:
-                description = "Success";
-                break;
-        }
+            -1 => "Not Found",
+            _ => "Success",
+        };
         ConvertResponse response = new(description, convertedValue);
 
         return Task.FromResult(response);

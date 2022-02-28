@@ -9,8 +9,8 @@ using Serilog;
 namespace Currency.Converter.Infrastructure.Services;
 public class CurrencyConverterService : ICurrencyConverter
 {
-    readonly ConcurrentDictionary<string, double> _rateDic = new ConcurrentDictionary<string, double>();
-    readonly AdjacencyGraph<string, Edge<string>> _currencyGraph = new AdjacencyGraph<string, Edge<string>>();
+    public readonly ConcurrentDictionary<string, double> _rateDic = new ConcurrentDictionary<string, double>();
+    public readonly AdjacencyGraph<string, Edge<string>> _currencyGraph = new AdjacencyGraph<string, Edge<string>>();
 
     private static readonly object LockObj = new();
     private readonly ILogger<CurrencyConverterService> _logger;
@@ -38,11 +38,6 @@ public class CurrencyConverterService : ICurrencyConverter
         {
             fromCurrency = fromCurrency.ToUpper();
             toCurrency = toCurrency.ToUpper();
-            if (_currencyGraph.ContainsEdge(fromCurrency, toCurrency) == false)
-            {
-                _logger.LogInformation($"Currency Convert Operation Can not find for {fromCurrency}_{toCurrency}.");
-                return -1;
-            }
 
             Func<Edge<string>, double> graphWeight = e => 1;
 
@@ -62,7 +57,7 @@ public class CurrencyConverterService : ICurrencyConverter
             }
         }
         _logger.LogWarning("Currency Convert Operation Finised with Warning Code:-2.");
-        return -2;
+        return -1;
     }
 
     public void UpdateConfiguration(IEnumerable<Tuple<string, string, double>> conversionRates)
