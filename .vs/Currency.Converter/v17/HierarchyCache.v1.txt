@@ -1,0 +1,545 @@
+﻿++Solution 'Currency.Converter' ‎(8 of 8 projects)
+++test
+i:{00000000-0000-0000-0000-000000000000}:test
+++Application.IntegrationTests
+++Dependencies
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:>205
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:>1291
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:>3418
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:>162
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>256
+++TodoItems
+++TodoLists
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\
+++appsettings.json
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\appsettings.json
+++TestBase.cs
+++Testing.cs
+++Analyzers
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:analyzers
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:analyzers
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:analyzers
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:analyzers
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:analyzers
+++Frameworks
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:frameworks
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:frameworks
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:frameworks
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:frameworks
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:frameworks
+++Packages
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:packages
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:packages
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:packages
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:packages
+++Commands
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\
+++Queries
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\queries\
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\weatherforecasts\queries\
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.2\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\microsoft.netcore.app
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:d:\project\dot net\currency.converter\currency.converter\src\consoleapp_test\microsoft.netcore.app
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\microsoft.netcore.app
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\microsoft.netcore.app
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\microsoft.netcore.app
+++FluentAssertions (6.2.0)
+++Microsoft.NET.Test.Sdk (17.0.0)
+++Moq (4.16.1)
+++NUnit (3.13.2)
+++NUnit3TestAdapter (4.1.0)
+++Respawn (4.0.0)
+++CreateTodoItemTests.cs
+++DeleteTodoItemTests.cs
+++UpdateTodoItemDetailTests.cs
+++UpdateTodoItemTests.cs
+++CreateTodoListTests.cs
+++DeleteTodoListTests.cs
+++PurgeTodoListsTests.cs
+++UpdateTodoListTests.cs
+++GetTodosTests.cs
+++Application.UnitTests
+++Common
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\common\
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\
+++Projects
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:projects
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:projects
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:projects
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:projects
+++Behaviours
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\behaviours\
+++Exceptions
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\exceptions\
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\exceptions\
+++Mappings
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\mappings\
+++Microsoft.AspNetCore.App.Analyzers
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:c:\users\m.esmaeili\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\users\m.esmaeili\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:c:\users\m.esmaeili\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\users\m.esmaeili\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:c:\users\m.esmaeili\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:c:\users\m.esmaeili\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.2\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Application
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:d:\project\dot net\currency.converter\currency.converter\src\application\application.csproj
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\application\application.csproj
+i:{d1dbe94d-e0de-477e-8136-9f735c840fc6}:Application
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\application\application.csproj
+++Infrastructure
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\infrastructure.csproj
+i:{d1dbe94d-e0de-477e-8136-9f735c840fc6}:Infrastructure
+++RequestLoggerTests.cs
+++ValidationExceptionTests.cs
+++MappingTests.cs
+++Domain.UnitTests
+++ValueObjects
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\valueobjects\
+++ColourTests.cs
+++Domain
+i:{d1dbe94d-e0de-477e-8136-9f735c840fc6}:Domain
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\domain\domain.csproj
+++src
+i:{00000000-0000-0000-0000-000000000000}:src
+++WebAPI2
+i:{d1dbe94d-e0de-477e-8136-9f735c840fc6}:WebAPI2
+++Connected Services 
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:>3419
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:>3432
+++Swashbuckle.AspNetCore (6.2.3)
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:>3431
+++Properties
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\properties\
+++Controllers
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\controllers\
+++CurrencyController.cs
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\controllers\currencycontroller.cs
+++WeatherForecastController.cs
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\controllers\weatherforecastcontroller.cs
+++Program.cs
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:d:\project\dot net\currency.converter\currency.converter\src\consoleapp_test\program.cs
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\program.cs
+++Startup.cs
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\startup.cs
+++WeatherForecast.cs
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\weatherforecast.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\weatherforecasts\queries\getweatherforecasts\weatherforecast.cs
+++No service dependencies discovered
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:>3420
+++Microsoft.AspNetCore.Analyzers
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:c:\program files\dotnet\sdk\6.0.200\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\microsoft.aspnetcore.app
+++launchSettings.json
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\properties\launchsettings.json
+++appsettings.Development.json
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\appsettings.development.json
+++ConsoleApp_test
+i:{d1dbe94d-e0de-477e-8136-9f735c840fc6}:ConsoleApp_test
+++QuickGraph (3.6.61119.7)
+i:{74d5da94-f1ea-47b2-a090-823c17cb3e30}:>1345
+++Entities
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\entities\
+++TodoItem.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\entities\todoitem.cs
+++TodoList.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\entities\todolist.cs
+++Enums
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\enums\
+++Events
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\events\
+++_Imports.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\_imports.cs
+++AuditableEntity.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\common\auditableentity.cs
+++DomainEvent.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\common\domainevent.cs
+++ValueObject.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\common\valueobject.cs
+++PriorityLevel.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\enums\prioritylevel.cs
+++TodoItemCompletedEvent.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\events\todoitemcompletedevent.cs
+++TodoItemCreatedEvent.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\events\todoitemcreatedevent.cs
+++TodoItemDeletedEvent.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\events\todoitemdeletedevent.cs
+++UnsupportedColourException.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\exceptions\unsupportedcolourexception.cs
+++Colour.cs
+i:{cc667769-1eb7-44ce-a347-f3075b145086}:d:\project\dot net\currency.converter\currency.converter\src\domain\valueobjects\colour.cs
+++CsvHelper (15.0.10)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>658
+++Microsoft.AspNetCore.ApiAuthorization.IdentityServer (6.0.0)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>659
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.0)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>655
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.0)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>656
+++Microsoft.EntityFrameworkCore.InMemory (6.0.0)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>657
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.0)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>654
+++QuikGraph (2.3.0)
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:>1567
+++Files
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\files\
+++Identity
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\identity\
+++Persistence
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\
+++Services
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\services\
+++CurrencyConverterService.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\services\currencyconverterservice.cs
+++DateTimeService.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\services\datetimeservice.cs
+++DomainEventService.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\services\domaineventservice.cs
+++DependencyInjection.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\dependencyinjection.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\dependencyinjection.cs
+++Maps
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\files\maps\
+++CsvFileBuilder.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\files\csvfilebuilder.cs
+++ApplicationUser.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\identity\applicationuser.cs
+++IdentityResultExtensions.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\identity\identityresultextensions.cs
+++IdentityService.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\identity\identityservice.cs
+++Configurations
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\configurations\
+++Migrations
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\migrations\
+++ApplicationDbContext.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\applicationdbcontext.cs
+++ApplicationDbContextSeed.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\applicationdbcontextseed.cs
+++TodoItemRecordMap.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\files\maps\todoitemrecordmap.cs
+++TodoItemConfiguration.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\configurations\todoitemconfiguration.cs
+++TodoListConfiguration.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\configurations\todolistconfiguration.cs
+++00000000000000_InitialCreate.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\migrations\00000000000000_initialcreate.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\migrations\applicationdbcontextmodelsnapshot.cs
+++00000000000000_InitialCreate.Designer.cs
+i:{b85edd7a-b3f3-4d6e-981e-2d95ed4fd9c9}:d:\project\dot net\currency.converter\currency.converter\src\infrastructure\persistence\migrations\00000000000000_initialcreate.designer.cs
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:>582
+++FluentValidation.DependencyInjectionExtensions (10.3.4)
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:>580
+++MediatR.Extensions.Microsoft.DependencyInjection (9.0.0)
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:>583
+++Microsoft.EntityFrameworkCore (6.0.0)
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:>581
+++Interfaces
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\
+++IApplicationDbContext.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\iapplicationdbcontext.cs
+++ICsvFileBuilder.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\icsvfilebuilder.cs
+++ICurrencyConverter.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\icurrencyconverter.cs
+++ICurrentUserService.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\icurrentuserservice.cs
+++IDateTime.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\idatetime.cs
+++IDomainEventService.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\idomaineventservice.cs
+++IIdentityService.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\interfaces\iidentityservice.cs
+++Models
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\models\
+++Security
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\security\
+++WeatherForecasts
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\weatherforecasts\
+++AuthorizationBehaviour.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\behaviours\authorizationbehaviour.cs
+++LoggingBehaviour.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\behaviours\loggingbehaviour.cs
+++PerformanceBehaviour.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\behaviours\performancebehaviour.cs
+++UnhandledExceptionBehaviour.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\behaviours\unhandledexceptionbehaviour.cs
+++ValidationBehaviour.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\behaviours\validationbehaviour.cs
+++ForbiddenAccessException.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\exceptions\forbiddenaccessexception.cs
+++NotFoundException.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\exceptions\notfoundexception.cs
+++ValidationException.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\exceptions\validationexception.cs
+++IMapFrom.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\mappings\imapfrom.cs
+++MappingExtensions.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\mappings\mappingextensions.cs
+++MappingProfile.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\mappings\mappingprofile.cs
+++DomainEventNotification.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\models\domaineventnotification.cs
+++PaginatedList.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\models\paginatedlist.cs
+++Result.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\models\result.cs
+++AuthorizeAttribute.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\common\security\authorizeattribute.cs
+++EventHandlers
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\eventhandlers\
+++CreateTodoItem
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\createtodoitem\
+++DeleteTodoItem
+++UpdateTodoItem
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\updatetodoitem\
+++UpdateTodoItemDetail
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\updatetodoitemdetail\
+++TodoItemCompletedEventHandler.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\eventhandlers\todoitemcompletedeventhandler.cs
+++TodoItemCreatedEventHandler.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\eventhandlers\todoitemcreatedeventhandler.cs
+++GetTodoItemsWithPagination
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\queries\gettodoitemswithpagination\
+++CreateTodoList
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\createtodolist\
+++DeleteTodoList
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\deletetodolist\
+++PurgeTodoLists
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\purgetodolists\
+++UpdateTodoList
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\updatetodolist\
+++ExportTodos
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\exporttodos\
+++GetTodos
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\gettodos\
+++GetWeatherForecasts
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\weatherforecasts\queries\getweatherforecasts\
+++CreateTodoItemCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\createtodoitem\createtodoitemcommand.cs
+++CreateTodoItemCommandValidator.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\createtodoitem\createtodoitemcommandvalidator.cs
+++DeleteTodoItemCommand.cs
+++UpdateTodoItemCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\updatetodoitem\updatetodoitemcommand.cs
+++UpdateTodoItemCommandValidator.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\updatetodoitem\updatetodoitemcommandvalidator.cs
+++UpdateTodoItemDetailCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\updatetodoitemdetail\updatetodoitemdetailcommand.cs
+++GetTodoItemsWithPaginationQuery.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\queries\gettodoitemswithpagination\gettodoitemswithpaginationquery.cs
+++GetTodoItemsWithPaginationQueryValidator.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\queries\gettodoitemswithpagination\gettodoitemswithpaginationqueryvalidator.cs
+++TodoItemBriefDto.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\queries\gettodoitemswithpagination\todoitembriefdto.cs
+++CreateTodoListCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\createtodolist\createtodolistcommand.cs
+++CreateTodoListCommandValidator.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\createtodolist\createtodolistcommandvalidator.cs
+++DeleteTodoListCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\deletetodolist\deletetodolistcommand.cs
+++PurgeTodoListsCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\purgetodolists\purgetodolistscommand.cs
+++UpdateTodoListCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\updatetodolist\updatetodolistcommand.cs
+++UpdateTodoListCommandValidator.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\commands\updatetodolist\updatetodolistcommandvalidator.cs
+++ExportTodosQuery.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\exporttodos\exporttodosquery.cs
+++ExportTodosVm.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\exporttodos\exporttodosvm.cs
+++TodoItemFileRecord.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\exporttodos\todoitemfilerecord.cs
+++GetTodosQuery.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\gettodos\gettodosquery.cs
+++PriorityLevelDto.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\gettodos\priorityleveldto.cs
+++TodoItemDto.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\gettodos\todoitemdto.cs
+++TodoListDto.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\gettodos\todolistdto.cs
+++TodosVm.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\todolists\queries\gettodos\todosvm.cs
+++GetWeatherForecastsQuery.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\weatherforecasts\queries\getweatherforecasts\getweatherforecastsquery.cs
+++NewFolder
+++Currency
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\
+++DeleteData
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\deletedata\
+++DeleteDataCommand.cs
+i:{1dc6b072-462d-4344-9a6c-3b072385d68b}:d:\project\dot net\currency.converter\currency.converter\src\application\currency\commands\deletedata\deletedatacommand.cs
+++Application.IntegrationTests (unloaded)
+i:{9243a87f-49e5-465c-b7a3-f4a4c19fba83}:Application.IntegrationTests
+++Solution 'Currency.Converter' ‎(7 of 8 projects)
+++Solution 'Currency.Converter' ‎(6 of 8 projects)
+++Solution 'Currency.Converter' ‎(5 of 8 projects)
+++Domain.UnitTests (unloaded)
+i:{9243a87f-49e5-465c-b7a3-f4a4c19fba83}:Domain.UnitTests
+++Application.UnitTests (unloaded)
+i:{9243a87f-49e5-465c-b7a3-f4a4c19fba83}:Application.UnitTests
+++Solution 'Currency.Converter' ‎(6 of 9 projects)
+++WebUI
+++wwwroot
+++ClientApp
+++Filters
+++Pages
+++Dockerfile
+++nswag.json
+++api
+++favicon.ico
+++e2e
+++.browserslistrc
+++.editorconfig
+++.gitignore
+++angular.json
+++package.json
+++tsconfig.json
+++tslint.json
+++ApiControllerBase.cs
+i:{8a43c7a4-a38f-4c56-a651-0ea7ff300a2a}:d:\project\dot net\currency.converter\currency.converter\src\webapi2\controllers\apicontrollerbase.cs
+++OidcConfigurationController.cs
+++TodoItemsController.cs
+++TodoListsController.cs
+++ApiExceptionFilterAttribute.cs
+++Shared
+++_ViewImports.cshtml
+++Error.cshtml
+++CurrentUserService.cs
+++appsettings.Production.json
+++specification.json
+++protractor.conf.js
+++tsconfig.e2e.json
+++api-authorization
+++app
+++assets
+++environments
+++index.html
+++karma.conf.js
+++main.ts
+++polyfills.ts
+++styles.scss
+++test.ts
+++tsconfig.app.json
+++tsconfig.server.json
+++tsconfig.spec.json
+++.dockerignore
+++package-lock.json
+++_LoginPartial.cshtml
+++Error.cshtml.cs
+++app.e2e-spec.ts
+++app.po.ts
+++login
+++login-menu
+++logout
+++api-authorization.constants.ts
+++api-authorization.module.spec.ts
+++api-authorization.module.ts
+++authorize.guard.spec.ts
+++authorize.guard.ts
+++authorize.interceptor.spec.ts
+++authorize.interceptor.ts
+++authorize.service.spec.ts
+++authorize.service.ts
+++counter
+++fetch-data
+++home
+++nav-menu
+++todo
+++token
+++app.component.html
+++app.component.ts
+++app.module.ts
+++app.server.module.ts
+++app-routing.module.ts
+++web-api-client.ts
+++.gitkeep
+++environment.prod.ts
+++environment.ts
+++login.component.html
+++login.component.scss
+++login.component.spec.ts
+++login.component.ts
+++login-menu.component.html
+++login-menu.component.scss
+++login-menu.component.spec.ts
+++login-menu.component.ts
+++logout.component.html
+++logout.component.scss
+++logout.component.spec.ts
+++logout.component.ts
+++counter.component.html
+++counter.component.spec.ts
+++counter.component.ts
+++fetch-data.component.html
+++fetch-data.component.ts
+++home.component.html
+++home.component.ts
+++nav-menu.component.html
+++nav-menu.component.scss
+++nav-menu.component.ts
+++todo.component.html
+++todo.component.scss
+++todo.component.ts
+++token.component.html
+++token.component.ts
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.200\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++FluentValidation.AspNetCore (10.3.4)
+++Microsoft.AspNetCore.Identity.UI (6.0.0)
+++Microsoft.AspNetCore.SpaServices.Extensions (6.0.0)
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+++Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore (6.0.0)
+++Microsoft.Extensions.FileProviders.Embedded (6.0.0)
+++Microsoft.VisualStudio.Azure.Containers.Tools.Targets (1.11.1)
+++NSwag.AspNetCore (13.9.4)
+++NSwag.MSBuild (13.9.4)
+++WebAPI2 (unloaded)
+++Solution 'Currency.Converter' ‎(5 of 9 projects)
+i:{00000000-0000-0000-0000-000000000000}:Currency.Converter.sln
+++WebUI (unloaded)
+i:{d1dbe94d-e0de-477e-8136-9f735c840fc6}:WebUI
