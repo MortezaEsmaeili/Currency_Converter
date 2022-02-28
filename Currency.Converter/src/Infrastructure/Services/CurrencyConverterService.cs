@@ -1,12 +1,10 @@
-﻿using System;
+﻿
 using System.Collections.Concurrent;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Currency.Converter.Application.Common.Interfaces;
 using QuikGraph;
 using QuikGraph.Algorithms;
+using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace Currency.Converter.Infrastructure.Services;
 public class CurrencyConverterService : ICurrencyConverter
@@ -15,25 +13,34 @@ public class CurrencyConverterService : ICurrencyConverter
     readonly AdjacencyGraph<string, Edge<string>> _currencyGraph = new AdjacencyGraph<string, Edge<string>>();
 
     private static readonly object LockObj = new();
+    private readonly ILogger<CurrencyConverterService> _logger;
+    public CurrencyConverterService(ILogger<CurrencyConverterService> logger)
+    {
+        _logger = logger;
+    }
 
     public void ClearConfiguration()
     {
+        _logger.LogInformation("Clear Config Operation Started.");
         _rateDic.Clear();
 
         lock (LockObj)
         {
             _currencyGraph.Clear();
         }
+        _logger.LogInformation("Clear Config Operation Finished.");
     }
 
     public double Convert(string fromCurrency, string toCurrency, double amount)
     {
+        _logger.LogInformation("Currency Convert Operation Started.");
         lock (LockObj)
         {
             fromCurrency = fromCurrency.ToUpper();
             toCurrency = toCurrency.ToUpper();
             if (_currencyGraph.ContainsEdge(fromCurrency, toCurrency) == false)
             {
+                _logger.LogInformation($"Currency Convert Operation Can not find for {fromCurrency}_{toCurrency}.");
                 return -1;
             }
 
@@ -50,14 +57,17 @@ public class CurrencyConverterService : ICurrencyConverter
                     string key = e.Source + "_" + e.Target;
                     totalRate *= _rateDic[key];
                 }
+                _logger.LogInformation($"Currency Convert Operation Finished for {fromCurrency}_{toCurrency}.");
                 return totalRate * amount;
             }
         }
+        _logger.LogWarning("Currency Convert Operation Finised with Warning Code:-2.");
         return -2;
     }
 
     public void UpdateConfiguration(IEnumerable<Tuple<string, string, double>> conversionRates)
     {
+        _logger.LogInformation("Update Configuration is Start.");
         Parallel.ForEach(conversionRates, conversionRate =>
         {
 
@@ -80,8 +90,7 @@ public class CurrencyConverterService : ICurrencyConverter
                     _currencyGraph.AddVerticesAndEdge(new Edge<string>(toCurrency, fromCurrency));
                 }
             }
-
-
         });
+        _logger.LogInformation("Update Configuration was Finished.");
     }
 }

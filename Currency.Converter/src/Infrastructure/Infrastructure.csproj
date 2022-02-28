@@ -16,6 +16,8 @@
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.0" />
         <PackageReference Include="QuikGraph" Version="2.3.0" />
+        <PackageReference Include="Serilog.AspNetCore" Version="5.0.1-dev-00262" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.0.2-dev-00890" />
     </ItemGroup>
 
     <ItemGroup>

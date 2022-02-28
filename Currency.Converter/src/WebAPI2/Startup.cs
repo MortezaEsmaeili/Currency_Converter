@@ -1,7 +1,7 @@
 ﻿using Currency.Converter.Application.Common.Interfaces;
 using Currency.Converter.Infrastructure.Services;
 using MediatR;
-using Currency.Converter.Application.Currency.Commands.DeleteData;
+using Serilog;
 namespace WebAPI2;
 
 public static class Startup
@@ -9,6 +9,10 @@ public static class Startup
     public static WebApplication InitializeApp(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        builder.Host.UseSerilog((contex, config) => {
+            config.WriteTo.Console();
+        });
+        
         ConfigureServices(builder);
         var app = builder.Build();
         Configure(app);

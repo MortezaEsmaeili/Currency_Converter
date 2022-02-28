@@ -23,6 +23,6 @@ public class DeleteDataCommandHandler : IRequestHandler<DeleteDataCommand>
     {
         _currencyConverter.ClearConfiguration();
 
-        return Unit.Value;
+        return await Task.FromResult(Unit.Value);
     }
 }

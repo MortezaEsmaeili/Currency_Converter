@@ -13,10 +13,12 @@ namespace WebAPI2.Controllers;
 public class CurrencyController : ApiControllerBase
 {
     private readonly IMediator _mediator;
+    private readonly ILogger<CurrencyController> _logger;
 
-    public CurrencyController(IMediator mediator)
+    public CurrencyController(IMediator mediator, ILogger<CurrencyController> logger)
     {
         _mediator = mediator;
+        _logger = logger;
     }
 
     [HttpPost]
